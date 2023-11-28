@@ -18,23 +18,15 @@ $sp = $kq->fetch();
         <div class="product_detail_img">
           <img src="<?php echo $sp['hinh']; ?>" alt="">
         </div>
-        <div class="product_small_img">
-          <li><a href=""><img src="/Project1/img/2487_laptopaz_dell_xps_9520_1.jpg" alt=""></a></li>
-          <li><a href=""><img src="/Project1/img/120_2487_laptopaz_dell_xps_9520_2.jpg" alt=""></a></li>
-          <li><a href=""><img src="/Project1/img/120_2487_laptopaz_dell_xps_9520_3.jpg" alt=""></a></li>
-          <li><a href=""><img src="/Project1/img/120_2487_laptopaz_dell_xps_9520_4.jpg" alt=""></a></li>
-          <li><a href=""><img src="/Project1/img/2487_laptopaz_dell_xps_9520_5.jpg" alt=""></a></li>
-          <li><a href=""><img src="/Project1/img/120_2487_laptopaz_dell_xps_9520_6.jpg" alt=""></a></li>
-        </div>
       </div>
       <div class="product_colum">
         <div class="product_colum_text">
-          <span><?php echo $sp['gia'] ?>VND</span>
+          <span><?php echo $sp['gia_km'] ?>VND</span>
           <p style="margin-bottom: 0.5rem;"><strong>Bảo hành:</strong> 12 tháng Xcomputer</p>
           <p style="margin-bottom: 3rem;"><strong>Tình trạng</strong> Còn hàng</p>
           <p><strong>Cấu hình:</strong></p>
         </div>
-        <div class="product_list_option">
+        <!-- <div class="product_list_option">
 
           <ul>
             <li>
@@ -93,7 +85,7 @@ $sp = $kq->fetch();
               </input>
             </li>
           </ul>
-        </div>
+        </div> -->
         <div class="promotion">
           <p class="box_promotion">
             <i class="fa fa-gift" style="font-size: 18px; margin-right: 5px;"> </i> QUÀ TẶNG/KHUYẾN MÃI
