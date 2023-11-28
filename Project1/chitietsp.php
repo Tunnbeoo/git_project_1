@@ -58,7 +58,7 @@ $sp = $kq->fetch();
             <input type="hidden" value="'.$sp['id'].'"  name="id">
             <input type="hidden" value="'.$sp['ten_sp'].'"  name="tensp">
             <input type="hidden" value="'.$sp['hinh'].'"  name="hinh">
-            <input type="hidden" value="'.$sp['gia'].'"  name="gia">
+            <input type="hidden" value="'.$sp['gia_km'].'"  name="gia">
             <input type="hidden" value="'.$sp['mota'].'"  name="mota">'?>
           </div>
           </form>
