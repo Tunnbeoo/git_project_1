@@ -26,66 +26,7 @@ $sp = $kq->fetch();
           <p style="margin-bottom: 3rem;"><strong>Tình trạng</strong> Còn hàng</p>
           <p><strong>Cấu hình:</strong></p>
         </div>
-        <!-- <div class="product_list_option">
-
-          <ul>
-            <li>
-              <input type="radio" name="pro" class="checkbox-option" value="">
-              <span>Core i5-12500H, 16GB, 256GB, UHD Graphics, 15.6" FHD+</span>
-              <p>38.890.000đ</p>
-
-              </input>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <input type="radio" name="pro" class="checkbox-option" value="">
-              <span>Core i7-12700H, 16GB, 512GB, RTX 3050Ti, 15.6" FHD+</span>
-              <p>47.990.000đ</p>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <input type="radio" name="pro" class="checkbox-option" value="">
-              <span>Core i7-12700H, 16GB, 512GB, RTX 3050Ti, 15.6" FHD+</span>D+
-              <p>47.990.000đ</p>
-
-              </input>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <input type="radio" name="pro" class="checkbox-option" value="">
-              <span>Core i9-12900HK, 16GB, 1TB, RTX 3050Ti, 16.5" OLED 3.5K Touch</span>
-              <p>61.990.000đ</p>
-
-              </input>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <input type="radio" name="pro" class="checkbox-option" value="">
-              <span>Core i9-12900HK, 32GB, 1TB, RTX 3050Ti, 16.5" OLED 3.5K Touch</span>
-              <p>65.490.000đ</p>
-
-              </input>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <input type="radio" name="pro" class="checkbox-option" value="">
-              <span>Core i9-12900HK, 32GB, 1TB, RTX 3050Ti, 15.6" FHD</span>+
-              <p>61.490.000đ</p>
-
-              </input>
-            </li>
-          </ul>
-        </div> -->
+        
         <div class="promotion">
           <p class="box_promotion">
             <i class="fa fa-gift" style="font-size: 18px; margin-right: 5px;"> </i> QUÀ TẶNG/KHUYẾN MÃI
