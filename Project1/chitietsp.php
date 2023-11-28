@@ -15,6 +15,7 @@ $sp = $kq->fetch();
     </div>
     <div class="product_new">
       <div class="product_detail">
+      <form action="index.php?page=cart" method="post">
         <div class="product_detail_img">
           <img src="<?php echo $sp['hinh']; ?>" alt="">
         </div>
@@ -27,6 +28,7 @@ $sp = $kq->fetch();
           <p><strong>Cấu hình:</strong></p>
           <p><?php echo $sp['mota']?></p>
         </div>
+      
         <div class="promotion">
           <p class="box_promotion">
             <i class="fa fa-gift" style="font-size: 18px; margin-right: 5px;"> </i> QUÀ TẶNG/KHUYẾN MÃI
@@ -50,8 +52,16 @@ $sp = $kq->fetch();
         <a href="<?php if (isset($_SESSION['ho'])) { ?>index.php?page=cart
                   <?php } else {
                   ?>dndk.php<?php
-                          } ?>" class="buy-now add-product">
+                          } ?>" class="buy-now add-product"name="cart">
           Mua ngay
+          <div><?php echo'
+            <input type="hidden" value="'.$sp['id'].'"  name="id">
+            <input type="hidden" value="'.$sp['ten_sp'].'"  name="tensp">
+            <input type="hidden" value="'.$sp['hinh'].'"  name="hinh">
+            <input type="hidden" value="'.$sp['gia'].'"  name="gia">
+            <input type="hidden" value="'.$sp['mota'].'"  name="mota">'?>
+          </div>
+          </form>
           <span class="d-block text-13">
             Giao hàng tận nơi hoặc nhận ở cửa hàng
           </span>

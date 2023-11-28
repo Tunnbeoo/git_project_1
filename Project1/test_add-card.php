@@ -139,7 +139,15 @@
         </div>
       </div>
     </div>
-      <section id="main">
+      
+    <div>
+      <?php 
+      echo var_dump ($_SESSION['cart']) ; 
+      
+          
+      ?>
+    </div>
+    <!-- <section id="main">
         <div class="container">
           <div id="content">
             <form method="post" enctype="multipart/form-data" action="/send-cart" onsubmit="return check_field()">
@@ -357,4 +365,4 @@ function xoa(i)
     location.reload();
 }
 </script>
-  </main>
+  </main> -->

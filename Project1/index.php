@@ -1,10 +1,13 @@
 <?php
 session_start();
+if (!isset($_SESSION['cart'])) $_SESSION['cart']=[];
  require_once "functions.php"; ?>
 <?php if (isset($_GET['page'])==true){
     $page = $_GET['page'];
     $page = strip_tags($page);
 }
+
+
 else $page = "" ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -77,7 +80,17 @@ else $page = "" ?>
     <?php switch($page){
                 case "sp" : require_once "chitietsp.php"; break;
                 case "loai" : require_once "sptrongloai.php"; break;
-                case "cart" : require_once "test_add-card.php"; break;
+                case "cart" : 
+                    if (isset($_POST['cart'])&&($_POST['cart'])) {
+                        $id=$_POST['id'];
+                        $ten_sp=$_POST['tensp'];
+                        $hinh=$_POST['hinh'];
+                        $gia=$_POST['gia'];
+                        $mota=$_POST['mota'];
+                        $item=array($id,$ten_sp,$hinh,$gia,$mota);
+                        $_SESSION['cart'][]=$item;
+                    }
+                    require_once "test_add-card.php"; break;
                 case "dangky" : require_once "dangky.php"; break;
                 case "dndk" : require_once "dndk.php"; break;
                 case "khuyenmai" : require_once "tin-khuyen-mai.php"; break;
