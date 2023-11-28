@@ -25,8 +25,8 @@ $sp = $kq->fetch();
           <p style="margin-bottom: 0.5rem;"><strong>Bảo hành:</strong> 12 tháng Xcomputer</p>
           <p style="margin-bottom: 3rem;"><strong>Tình trạng</strong> Còn hàng</p>
           <p><strong>Cấu hình:</strong></p>
+          <p><?php echo $sp['mota']?></p>
         </div>
-        
         <div class="promotion">
           <p class="box_promotion">
             <i class="fa fa-gift" style="font-size: 18px; margin-right: 5px;"> </i> QUÀ TẶNG/KHUYẾN MÃI
