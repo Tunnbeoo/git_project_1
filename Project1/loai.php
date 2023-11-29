@@ -47,22 +47,22 @@ $loaisp_arr = layloaisp();
                               </div>
                           	</div>
                             <div class="danhmuc-2">
-                              <a href="index.php?page=loai&id=10" title="Laptop Lenovo Mới" class="title-danhmuc-2">Laptop LG Mới</a>
+                              <a href="index.php?page=loai&id=2" title="Laptop Lenovo Mới" class="title-danhmuc-2">Laptop Lenovo Mới</a>
                               <div class="danhmuc-3 d-flex flex-wrap">
                                 <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="index.php?page=loai&id=10" title="Lenovo Ideapad">Lenovo Ideapad</a>
+                                  <a href="index.php?page=loai&id=2" title="Lenovo Ideapad">Lenovo Ideapad</a>
                                 </div>
                                 <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="index.php?page=loai&id=10" title="Lenovo Legion">Lenovo Legion</a>
+                                  <a href="index.php?page=loai&id=2" title="Lenovo Legion">Lenovo Legion</a>
                                 </div>
                                 <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="index.php?page=loai&id=10" title="Lenovo ThinkBook">Lenovo ThinkBook</a>
+                                  <a href="index.php?page=loai&id=2" title="Lenovo ThinkBook">Lenovo ThinkBook</a>
                                 </div>
                                 <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="index.php?page=loai&id=10" title="Lenovo Thinkpad">Lenovo Thinkpad</a>
+                                  <a href="index.php?page=loai&id=2" title="Lenovo Thinkpad">Lenovo Thinkpad</a>
                                 </div>
                                 <div class="d-flex align-items item-3"><!--<i class="fa fa-angle-double-right" style="padding-right:3px;"></i>-->
-                                  <a href="index.php?page=loai&id=10" title="Lenovo Yoga">Lenovo Yoga</a>
+                                  <a href="index.php?page=loai&id=2" title="Lenovo Yoga">Lenovo Yoga</a>
                                 </div>
                               </div>
                           	</div>

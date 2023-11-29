@@ -1,14 +1,38 @@
 <?php
 session_start();
-if (!isset($_SESSION['cart'])) $_SESSION['cart']=[];
- require_once "functions.php"; ?>
-<?php if (isset($_GET['page'])==true){
-    $page = $_GET['page'];
-    $page = strip_tags($page);
+ob_start();
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+require_once "functions.php";
+
+if (isset($_GET['page'])) {
+    $page = strip_tags($_GET['page']);
+} else {
+    $page = "";
 }
 
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ten_sp'])) {
+    // Khởi tạo giỏ hàng nếu chưa có
+    if (!isset($_SESSION['cart'])) {
+        $_SESSION['cart'] = [];
+    }
 
-else $page = "" ?>
+    $product = [
+        'id_sp' => $_POST['id_sp'],
+        'ten_sp' => $_POST['ten_sp'],
+        'hinh' => $_POST['hinh'],
+        'gia_km' => $_POST['gia_km'],
+        'mota' => $_POST['mota']
+    ];
+
+    $_SESSION['cart'][] = $product;
+
+    header("Location: index.php?page=cart");
+    exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
